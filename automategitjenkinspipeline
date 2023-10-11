@@ -1,0 +1,8 @@
+stages{
+  steps('git'){
+    echo 'hello from git'
+  }
+  steps('hello git'){
+    echo 'hello sneha from git'
+  }
+}
